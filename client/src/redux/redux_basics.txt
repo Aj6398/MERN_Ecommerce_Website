@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////// For fetching the data from the backend => we normally write "api"-funct in "api.js"-file.....
+//.........like 
+// //export const authenticateSignup = async (data) => {
+//     try{
+//         return await axios.post(`${URL}/signup`,data);   
+//     } catch(error){
+//         console.log('error while calling api', error);
+//     }
+// }
+// and at the perticular point-"axios.post(`${URL}/product`,data)" we'll fetch that data... It seems to be easy....
+// BUT we'll use the "redux" instead of doing this..."Redux-"Frontend's DataBase"=>One linerer defination
+//                --- We'll store the local "states" in the centralized DataBase whose name we gave as "redux"... 
+//     For setuping Redux-folder we need to have multiple foler in redux-folder... for structured code...
+//  1) need to have Redux-extention where we have "devTools" of redux 
+            then after we need to connect the "Redux-devtools-store(portal)" by making "store.js" file.....
+            actually we connect our "application" to "redux-devtool-portal" by making "store.js" file...
+//  2) npm i redux-- have many function-"creatStore" .... like for connecting the "store"
+//  3)  
